@@ -10,6 +10,7 @@
     border-radius: 15px;
     margin: auto;
     overflow: hidden;
+    background-image: linear-gradient( to left top, rgba(6, 43, 248, 0.616), rgb(138, 184, 228), rgb(188, 170, 221));
 }
 
 .circle1 {
