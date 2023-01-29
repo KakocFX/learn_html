@@ -10,7 +10,21 @@
     border-radius: 15px;
     margin: auto;
     overflow: hidden;
+    
+}
+
+.osnv1 {
+
     background-image: linear-gradient( to left top, rgba(6, 43, 248, 0.616), rgb(138, 184, 228), rgb(188, 170, 221));
+}
+
+.osnv2 {
+
+    background-image: linear-gradient( to left top, rgba(12, 235, 31, 0.966), rgba(89, 231, 77, 0.863), rgb(152, 209, 157));
+}
+
+.osnv3 {
+    background-image: linear-gradient( to left top, rgba(235, 12, 86, 0.966), rgba(214, 87, 157, 0.863), rgb(219, 152, 178));
 }
 
 .circle1 {
@@ -36,4 +50,19 @@
     position: relative;
     top: 110px;
     left: 111px;
+}
+li{ display: inline-block; }
+
+ul{
+    list-style-type: none;
+}
+
+.info >h1{
+    padding-top: 50px;
+}
+.info >h5{
+    padding-top: 50px;
+}
+.info >p{
+    padding-top: 50px;
 }
