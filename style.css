@@ -1,42 +1,38 @@
-body 
-{
-    background-image: url(https://planetofhotels.com/guide/sites/default/files/styles/node__blog_post__bp_banner/public/2020-06/Exotic-tropical-beach-sunse.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-}
-
-.start {
-color: white;
-text-align: center;
-margin-top: 70px;
-margin-bottom: 80px;
-}
-
-.userButton {
-    border: 2px solid black;
-    text-align: center;
-    border-radius: 10px;
-    width: 200px;
-    margin-left: 500px;
-    background-color: aliceblue;
-    color: black;
-    margin-top: 10px;
-}
-
-.userInform1 {
-    color: red;
-    background-color: rgb(240, 223, 74);
-}
-
-.userInform2 {
-    color: rgb(121, 226, 121);
-    background-color: rgb(231, 70, 183);
-}
-
 * {
     padding: 0;
     margin: 0;
+}
+
+.osnv {
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 15px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.circle1 {
+    background-color:  rgb(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: relative;
+    bottom: 120px;
+    left: 450px;
+    width: 300px;
+    height: 300px;
+}
+
+.circle2 {
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: relative;
+    top: -170px;
+    left: 320px;
+    width: 300px;
+    height: 300px;
+}
+.info {
+    position: relative;
+    top: 110px;
+    left: 111px;
 }
