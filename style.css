@@ -1,77 +1,101 @@
-:root {
-    --ons-x: 600px;
-    --osn-y: 400px;
-    --circle-x: 300px;
-}
-    * {
+* {
     padding: 0;
     margin: 0;
 }
 
-.osnv {
-    width: var(--ons-x);
-    height: var(--osn-y);
-    background-color: aqua;
-    border-radius: 15px;
+:root {
+    --boxBottom-w: 164px; 
+    --boxBottom-h: 93px;
+    --boxBottom-b: 1px solid black; 
+}
+
+body {
+    background-color: rgb(27, 252, 214);
+}
+
+.boxMain {
+    height: 700px;
+    width: 500px;
+    border: 2px solid black;
     margin: auto;
-    overflow: hidden;
-    
+    margin-top: 100px;
+    background-color: aliceblue;
+    border-radius: 15px;
 }
 
-.osnv1 {
-
-    background-image: linear-gradient( to left top, rgba(6, 43, 248, 0.616), rgb(138, 184, 228), rgb(188, 170, 221));
+.boxHeader {
+    height: 100px;
+    border: 2px solid black;
 }
 
-.osnv2 {
-
-    background-image: linear-gradient( to left top, rgba(12, 235, 31, 0.966), rgba(89, 231, 77, 0.863), rgb(152, 209, 157));
+.topLogo1 {
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    position: relative;
+    left: 100px;
+    top: 14px;
 }
 
-.osnv3 {
-    background-image: linear-gradient( to left top, rgba(235, 12, 86, 0.966), rgba(214, 87, 157, 0.863), rgb(219, 152, 178));
+.topText {
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 45px;
+    left: 170px;
 }
-
-.circle1 {
-    background-color:  rgb(255, 255, 255, 0.8);
-    border-radius: 50%;
+.topLogo2 {
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
     position: relative;
     bottom: 120px;
-    left: 450px;
-    width: 300px;
-    height: 300px;
+    left: 420px;
 }
-
-.circle2 {
-    background-color: rgb(255, 255, 255, 0.8);
+.faceLogo {
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
-    position: relative;
-    top: -170px;
-    left: 320px;
-    width: var(--circle-x);
-    height: var(--circle-x);
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
 }
-.info {
-    position: relative;
-    top: 110px;
-    left: 111px;
+.personalInfo {
+    height: 140px;
+    border: 1px solid black;
+    margin-top: 15px;
 }
-li{ display: inline-block; }
-
-ul{
+.followButton {
+    height: 70px;
+    border: 1px solid black;
+}
+.bottomInfo {
+    height: 92px;
+    border: 1px solid black;
+}
+.boxBottom {
+    height: var(--boxBottom-h);
+    width: var(--boxBottom-w);
+    border: var(--boxBottom-b);
+}
+li {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
     list-style-type: none;
-}
 
-.info >h1{
-    padding-top: 50px;
 }
-.info >h5{
-    padding-top: 50px;
+.Photoshop {
+    height: 200px;
+    width: 200px;
+    border: 10px solid rgb(255, 255, 255);
+    position: relative;
+    bottom: 130px;
+    right: 400px;
 }
-.info >p{
-    padding-top: 50px;
-}
-
-li + li {
-    margin-left: 10px;
+p {
+    text-align: center;
+    font-size: 120pt;
+    color: white;
 }
